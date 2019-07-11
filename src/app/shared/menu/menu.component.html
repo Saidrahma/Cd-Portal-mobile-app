@@ -1,0 +1,12 @@
+<ion-menu type="overlay" side="start" menuId="menu" [contentId]="contentId">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item lines="full" *ngFor="let item of menuItems" (click)="navigate(item.path)">{{ item.item }}</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
