@@ -15,6 +15,8 @@ Java and Android SDK library installed and configured .
 
 ## To run the application
 
+After getting into the application's folder:
+
 ```bash
 ionic start . --no-overwriting
 ```
